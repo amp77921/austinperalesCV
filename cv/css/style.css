@@ -1,0 +1,159 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    color: #d45d79;
+    background-color:#e9e2d0;
+    margin: 0;
+    text-align: center;
+}
+
+/* pictures */
+#profile {
+    border-radius: 50%;
+    box-shadow: 8px 0 8px 0 rgba(0,0,0,0.2);
+}
+
+/* paragraph */
+p {
+    margin: 0;
+}
+
+/* cloud pictures */
+.cloud1 {
+    position: absolute;
+    bottom: 500px;
+    left: 100px;
+    width: 300px;
+}
+.cloud2 {
+    position: absolute;
+    right: 100px;
+    top: 550px;
+    width: 250px;
+}
+
+/* divs */
+.top {
+    position: relative;
+    background-color:#e9e2d0;
+    padding: 200px 0 0 0;
+}
+.middle {
+    background-color:#e9e2d0;
+}
+.bottom {
+    background-color:#e9e2d0;
+}
+.footer {
+    background-color:#6e5773;
+    padding: 30px;
+}
+
+/* button */
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+button:hover {
+    font-size: 21px;
+    padding: 10.5px 20.5px;
+    background-color:rgb(196, 196, 201);
+    border-radius: 10px;
+}
+
+/* Skills */
+#MySkills {
+    font-size: 3em;
+}
+.skills {
+    text-align: left;
+    padding-left: 50%;
+}
+
+/* headings */
+h1 {
+    font-family: 'Pacifico', cursive;
+    color:#6e5773;
+    font-size:4em;
+}
+h2 {
+    color:#6e5773;
+    font-size:2em;
+}
+h3 {
+    color:#6e5773;
+    font-size:2em;
+}
+
+/* horizontal rule */
+hr {
+    border-top: 10px dotted #ea9085;
+    width: 30%;
+    margin: 100px auto;
+    background-color:#e9e2d0;
+}
+
+/* lists */
+ul {
+    list-style: none;
+}
+.leadership {
+    margin: 40px 0 0 0;
+    text-align: right;
+    font-size: 1.05em;
+}
+dl.dd {
+    font-size:2em;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color:rgb(42, 42, 102);
+}
+a:hover {
+    font-size: 1.03em;
+    color:rgb(20, 20, 47);
+}
+
+/* two column layout */
+.row {
+    width: 50%;
+    margin: 100px auto;
+}
+.column {
+    display: inline-block;
+}
+.left {
+    float: left;
+    width: 35%;
+}
+.right {
+    width: 65%;
+}
+
+/* contact.html */
+/* card */
+.card {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px 10px;
+    width: 60%;
+    margin: 0px auto 100px auto;
+    box-shadow: 8px 0 8px 0 rgba(0,0,0,0.2);
+}
+#text {
+    margin: 0 0 20px 0;
+    width: 40%;
+}
+#email {
+    margin: 0 0 20px 0;
+    width: 40%;
+}
+#message {
+    margin: 0 0 10px 0;
+    width: 40%;
+    height: 75px;
+}
